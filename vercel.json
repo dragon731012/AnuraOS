@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/proxy.js",
+      "src": "/proxy.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/proxy/anura",
-      "dest": "/api/proxy.js"
+      "dest": "/proxy.js"
     }
   ]
 }
